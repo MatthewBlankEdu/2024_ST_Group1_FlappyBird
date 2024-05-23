@@ -19,6 +19,9 @@ public class MoveController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!BirdController.HasStarted || BirdController.GameOver)
+            return;
+
         transform.position = new Vector3(transform.position.x + Speed * Time.deltaTime,
             transform.position.y, transform.position.z);
 
