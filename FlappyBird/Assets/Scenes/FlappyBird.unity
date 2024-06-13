@@ -550,6 +550,7 @@ MonoBehaviour:
   JumpForce: 6
   Rb2D: {fileID: 725298893}
   GameOverScreen: {fileID: 636585437}
+  Anim: {fileID: 725298896}
   Points: 0
 --- !u!95 &725298896
 Animator:
